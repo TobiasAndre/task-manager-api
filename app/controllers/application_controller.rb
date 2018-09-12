@@ -1,5 +1,2 @@
-class ApplicationController < ActionController::API
-  include DeviseTokenAuth::Concerns::SetUserByToken
-
-	include Authenticable
+class ApplicationController < ActionController::API  
 end
